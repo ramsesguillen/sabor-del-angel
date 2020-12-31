@@ -4,7 +4,9 @@ import { Col, Card } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 export const RecipeItem = ({ id, title, description, img }) => {
+
     const url = 'sabor-del-angel';
+
     return (
         <Col md={6} lg={4} className="mt-3 mb-3">
             <Card className="sombra">
@@ -17,6 +19,7 @@ export const RecipeItem = ({ id, title, description, img }) => {
                     <NavLink
                                 className="btn btn-success d-block"
                                 exact
+                                // to={`../${url}/receta/${id}`}
                                 to={`../${url}/receta/${id}`}
                     >Ver receta completa</NavLink>
                 </Card.Body>
