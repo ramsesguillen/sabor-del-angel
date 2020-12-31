@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sabor-del-angel/static/css/main.3d6060df.chunk.css",
-    "main.js": "/sabor-del-angel/static/js/main.56741c77.chunk.js",
-    "main.js.map": "/sabor-del-angel/static/js/main.56741c77.chunk.js.map",
+    "main.js": "/sabor-del-angel/static/js/main.5eca0a2a.chunk.js",
+    "main.js.map": "/sabor-del-angel/static/js/main.5eca0a2a.chunk.js.map",
     "runtime-main.js": "/sabor-del-angel/static/js/runtime-main.7de972f9.js",
     "runtime-main.js.map": "/sabor-del-angel/static/js/runtime-main.7de972f9.js.map",
     "static/css/2.c34dadae.chunk.css": "/sabor-del-angel/static/css/2.c34dadae.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.c34dadae.chunk.css",
     "static/js/2.b824f885.chunk.js",
     "static/css/main.3d6060df.chunk.css",
-    "static/js/main.56741c77.chunk.js"
+    "static/js/main.5eca0a2a.chunk.js"
   ]
 }
