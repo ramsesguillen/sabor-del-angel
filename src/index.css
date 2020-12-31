@@ -1,0 +1,193 @@
+:root {
+    --colorPrimario: #fff;
+    /* --colorPrimarioOscuro: #fd5e29; */
+    --colorPrimarioOscuro: #ce2307;
+    --colorMenu: #2C3E50;
+}
+
+/* Globales  */
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.bg-menu {
+    background-color: var(--colorMenu) !important;
+}
+h1, h3, h2 {
+    font-weight: 700;
+}
+p {
+    font-weight: 400;
+}
+
+.texto-primario {
+    color: var(--colorPrimarioOscuro ) !important ;
+}
+.btn-success {
+    border-color: var(--colorPrimarioOscuro) !important;
+    background-color: var(--colorPrimarioOscuro) !important;
+}
+.btn-secondario {
+    border-color: var(--colorMenu) !important;
+    background-color: var(--colorMenu) !important;
+}
+.badge-primary {
+    background-color: var(--colorPrimarioOscuro) !important;
+}
+.texto-secundario {
+    color: var(--colorPrimario ) !important ;
+}
+.sombra {
+    -webkit-box-shadow: 0px 12px 31px -7px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 12px 31px -7px rgba(0,0,0,0.66);
+    box-shadow: 0px 12px 31px -7px rgba(0,0,0,0.66);
+}
+/* Horario  */
+.horario {
+    border: 2px dashed var(--colorMenu);
+    color: var(--colorPrimarioOscuro)
+    /* background-color: #dadada; */
+}
+.horario-pochutla {
+    background-color: #001680;
+    letter-spacing: 0.3em;
+}
+.horario-pochutla li:nth-child(2n+1){
+    background-color:#132786;
+}
+.horario-pt-angel {
+    background-color: #009CDE;
+    letter-spacing: 0.3em;
+}
+.horario-pt-angel li:nth-child(2n+1){
+    background-color:  #008bc7;
+}
+
+/* REDES SOCIALES  */
+.redes-sociales i {
+    font-size: 25px;
+    border-bottom: 2px solid var(--colorPrimario);
+}
+.fab.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-whatsapp-square {
+    color: #00bb2d;
+}
+.fa-instagram-square {
+    color:  #c13584;
+}
+.fa-instagram-square,
+.fab.fa-facebook-square,
+.fa-whatsapp-square {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.fas.fa-phone-square,
+.fas.fa-envelope-square,
+.fas.fa-map-marked-alt {
+    font-size: 25px;
+    padding: 5px;
+    margin: 0 10px 0 0;
+    background-color: #fff;
+}
+.fas.fa-envelope-square { color: #D0493C; }
+.fas.fa-phone-square { color: #60EB53;}
+.fas.fa-map-marked-alt { color: #D5493C; }
+.list-group-item {
+    background-color: unset !important;
+    border-bottom: 1px solid var(--colorPrimario) !important;
+}
+/* Navegacion  */
+
+.barra .nav-item.nav-link {
+    color: var(--colorPrimario) !important;
+    font-size: 1.4rem;
+    font-family: 'Oswald', sans-serif;
+}
+.barra .nav-item.nav-link:hover {
+    color: var(--colorPrimarioOscuro) !important;
+}
+.barra .nav-item.nav-link.active {
+    border: 3px solid var(--colorPrimarioOscuro) ;
+    color: var(--colorPrimario) !important;
+    border-radius: 7px;
+}
+
+.logotipo {
+    width: 100%;
+    border-bottom: 2px solid var(--colorPrimarioOscuro) ;
+}
+
+@media (min-width: 768px) {
+    .logotipo {
+        width: 50%;
+    }
+    /* Carousel  */
+    .carousel-item{
+        height:660px;
+    }
+    .carousel-item img{
+        height: 660px;
+    }
+}
+
+/* HISTORIA  */
+.historia {
+    order: 1;
+}
+@media (min-width: 992px) {
+    .historia {
+        order: unset;
+    }
+}
+.link-modal {
+    color: blue !important;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Producto  */
+/* .pescado-ahumado {
+    order: 0;
+}
+@media (min-width: 768px) {
+    .pescado-ahumado {
+        order: unset;
+    } */
+/* } */
+.texto-precio {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.precio {
+    font-size: 3.5rem;
+}
+.emtregas {
+    font-weight: 300;
+    font-style: italic;
+}
+/* //Contacto */
+.mapa {
+    max-width: 100%;
+    height: 100vh;
+}
+.leaflet-container {
+    height: 50vh;
+    width: 99vw;
+}
+/* REcetas  */
+/* RESPONSABILIDAD SOCIAL  */
+.con-mar {
+    background-color: rgba(0,0,0,0.6);
+}
+.con-sociedad {
+    background-color: rgba(0,0,0,0.6);
+}
+/* FOOTER  */
+.site-footer {
+    background-color: var(--colorMenu);
+}
