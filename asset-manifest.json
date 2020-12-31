@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sabor-del-angel/static/css/main.3d6060df.chunk.css",
+    "main.js": "/sabor-del-angel/static/js/main.f6ce5812.chunk.js",
+    "main.js.map": "/sabor-del-angel/static/js/main.f6ce5812.chunk.js.map",
+    "runtime-main.js": "/sabor-del-angel/static/js/runtime-main.7de972f9.js",
+    "runtime-main.js.map": "/sabor-del-angel/static/js/runtime-main.7de972f9.js.map",
+    "static/css/2.c34dadae.chunk.css": "/sabor-del-angel/static/css/2.c34dadae.chunk.css",
+    "static/js/2.b824f885.chunk.js": "/sabor-del-angel/static/js/2.b824f885.chunk.js",
+    "static/js/2.b824f885.chunk.js.map": "/sabor-del-angel/static/js/2.b824f885.chunk.js.map",
+    "index.html": "/sabor-del-angel/index.html",
+    "static/css/2.c34dadae.chunk.css.map": "/sabor-del-angel/static/css/2.c34dadae.chunk.css.map",
+    "static/css/main.3d6060df.chunk.css.map": "/sabor-del-angel/static/css/main.3d6060df.chunk.css.map",
+    "static/js/2.b824f885.chunk.js.LICENSE.txt": "/sabor-del-angel/static/js/2.b824f885.chunk.js.LICENSE.txt",
+    "static/media/responsabilidad-social.e04c616c.JPG": "/sabor-del-angel/static/media/responsabilidad-social.e04c616c.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7de972f9.js",
+    "static/css/2.c34dadae.chunk.css",
+    "static/js/2.b824f885.chunk.js",
+    "static/css/main.3d6060df.chunk.css",
+    "static/js/main.f6ce5812.chunk.js"
+  ]
+}
