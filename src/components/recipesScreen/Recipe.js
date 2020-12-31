@@ -33,7 +33,7 @@ export const Recipe = ({ history}) => {
                 <h2 className=" mb-4">{ title }</h2>
                 <Row className="justify-content-center align-items-center">
                     <Col lg={7} >
-                        <img className="img-fluid rounded animate__animated animate__fadeInLeft"  src={`./assets/recetas/${img}`} alt={title} />
+                        <img className="img-fluid rounded animate__animated animate__fadeInLeft"  src={`../assets/recetas/${img}`} alt={title} />
                     </Col>
                     <Col lg={5} >
                         <h4 className="mt-2 mt-lg-0">Ingredientes</h4>
