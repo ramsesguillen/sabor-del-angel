@@ -47,7 +47,7 @@ const recipes = [
             'Seguir revolviendo para que no se queme hasta que se consuma el jugo de tomate a fuego lento. ',
             'Servir en plato extendido y acompañarlo con tostadas doradas y salsa de habanero.',
         ],
-        img: 'escabeche.jpg'
+        img: 'escabeche.JPG'
     },
     {
         id: 'ensalada-de-pescado-ahumado',
@@ -98,7 +98,7 @@ const recipes = [
             'Añadir 1 y ½ de agua y dejar hervir, sazonar con epazote y sal al gusto',
             'Servir en plato hondo, acompañar con cebolla y chile habanero picado.',
         ],
-        img: 'caldillo-de-pescado-con-nopales.JPG'
+        img: 'caldillo.JPG'
     },
     {
         id: 'salpicon-de-pescado-ahumado',
